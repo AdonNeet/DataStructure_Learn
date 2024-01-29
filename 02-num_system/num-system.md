@@ -85,7 +85,7 @@ Komputer bekerja dengan sistem biner berupa 0 dan 1 (bit). Bit merupakan satuan 
 5. Terabyte (TB)
    Digunakan untuk menyakatan kapasitas harddisk dalam mainframe.  
    1 TB = 1024 GB = 1.009.511.627.776 byte
-6. Petabyte (PB)
+6. Petabyte (PB)  
    1 PB = 1024 TB
 
 ## Sistem Pengkodean
@@ -111,31 +111,31 @@ Sistem yang digunakan untuk mengkodekan berbagai karakter. Data disimpan dalam m
       <tr>
          <td style="text-align:right;width:70px">89<br>2:</td>
          <td style="vertical-align:right;width:50px"></td>
-         <td rowspan="7" style="width:200px;text-align:justify;">Ditullis dari bawah ke atas: <span style="color: red;">1011001</span> Karena penulisan dengan 8 bit, sehingga <br> 89<sub>10</sub> = <span style="color: red;">0101 1001<sub>2</sub></span></td>
+         <td rowspan="7" style="width:200px;text-align:justify;">Ditullis dari bawah ke atas: <br> <b><span style="color: red;">1011001</span></b> Karena penulisan <br> dengan 8 bit, sehingga <br> 89<sub>10</sub> = <b><span style="color: red;">0101 1001<sub>2</sub></span></b></td>
       </tr>
       <tr>
          <td style="text-align:right;width:70px">44<br>2:</td>
-         <td style="vertical-align:top;width:50px">sisa  <span style="color: red;">1</span></td>
+         <td style="vertical-align:top;width:50px">sisa  <b><span style="color: red;">1</span></b></td>
       </tr>
       <tr>
          <td style="text-align:right;width:70px">22<br>2:</td>
-         <td style="vertical-align:top;width:50px">sisa  <span style="color: red;">0</span></td>
+         <td style="vertical-align:top;width:50px">sisa  <b><span style="color: red;">0</span></b></td>
       </tr>
       <tr>
          <td style="text-align:right;width:70px">11<br>2:</td>
-         <td style="vertical-align:top;width:50px">sisa  <span style="color: red;">0</span></td>
+         <td style="vertical-align:top;width:50px">sisa  <b><span style="color: red;">0</span></b></td>
       </tr>
       <tr>
          <td style="text-align:right;width:70px">55<br>2:</td>
-         <td style="vertical-align:top;width:50px">sisa  <span style="color: red;">1</span></td>
+         <td style="vertical-align:top;width:50px">sisa  <b><span style="color: red;">1</span></b></td>
       </tr>
       <tr>
          <td style="text-align:right;width:70px">2<br>2:</td>
-         <td style="vertical-align:top;width:50px">sisa  <span style="color: red;">1</span></td>
+         <td style="vertical-align:top;width:50px">sisa  <b><span style="color: red;">1</span></b></b></td>
       </tr>
       <tr>
-         <td style="text-align:right;width:70px"><span style="color: red;">1</span></td>
-         <td style="vertical-align:top;width:50px">sisa  <span style="color: red;">0</span></td>
+         <td style="text-align:right;width:70px"><b><span style="color: red;">1</span></b></td>
+         <td style="vertical-align:top;width:50px">sisa  <b><span style="color: red;">0</span></b></td>
       </tr>
    </table>
 
