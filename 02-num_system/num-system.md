@@ -3,21 +3,21 @@
 Suatu cara untuk mewakili besaran dari suatu item fisik. Konsep dasarnya dikarakteristikan oleh basis (radix), absolute digit, dan posisi (place) value.
 
 <table align="center">
-<tr>
-<th style="text-align:center" colspan="2">A x B<sup>n</sup></times></th>
-</tr>
-<tr>
-<td>A</td>
-<td>Absolut digit</td>
-</tr>
-<tr>
-<td>B</td>
-<td>Base (radix)</td>
-</tr>
-<tr>
-<td>n</td>
-<td>Position value</td>
-</tr>
+   <tr>
+      <th style="text-align:center" colspan="2">A x B<sup>n</sup></times></th>
+   </tr>
+   <tr>
+      <td>A</td>
+      <td>Absolut digit</td>
+   </tr>
+   <tr>
+      <td>B</td>
+      <td>Base (radix)</td>
+   </tr>
+   <tr>
+      <td>n</td>
+      <td>Position value</td>
+   </tr>
 </table>
 
 Basis yang digunakan sistem bilangan tergantung dari jumlah nilai bilangan yang dipergunakan.
@@ -29,7 +29,7 @@ Basis yang digunakan sistem bilangan tergantung dari jumlah nilai bilangan yang 
 
   <table align="center">
      <tr>
-     <th style="text-align:center" colspan="2">A x 10<sup>n</sup></times></th>
+      <th style="text-align:center" colspan="2">A x 10<sup>n</sup></times></th>
      </tr>
   </table>
 
@@ -40,7 +40,7 @@ Basis yang digunakan sistem bilangan tergantung dari jumlah nilai bilangan yang 
 
    <table align="center">
       <tr>
-      <th style="text-align:center" colspan="2">A x 2<sup>n</sup></times></th>
+         <th style="text-align:center" colspan="2">A x 2<sup>n</sup></times></th>
       </tr>
    </table>
 
@@ -51,7 +51,7 @@ Basis yang digunakan sistem bilangan tergantung dari jumlah nilai bilangan yang 
 
    <table align="center">
       <tr>
-      <th style="text-align:center" colspan="2">A x 8<sup>n</sup></times></th>
+         <th style="text-align:center" colspan="2">A x 8<sup>n</sup></times></th>
       </tr>
    </table>
 
@@ -62,7 +62,7 @@ Basis yang digunakan sistem bilangan tergantung dari jumlah nilai bilangan yang 
 
    <table align="center">
       <tr>
-      <th style="text-align:center" colspan="2">A x 16<sup>n</sup></times></th>
+         <th style="text-align:center" colspan="2">A x 16<sup>n</sup></times></th>
       </tr>
    </table>
 
@@ -101,4 +101,88 @@ Sistem yang digunakan untuk mengkodekan berbagai karakter. Data disimpan dalam m
 4. Unicode  
    Sebuah karakter Unicode dinyatakan dengan 16 bit. Karakter yang tersedia sebanyak 65.536 karakter, meliputi huruf, angka, dan spesial karakter, termasuk simbol Yunani, karakter grafis, simbol Arab dan Cina.
 
-> Under Construction
+## Konversi Bilangan
+
+1. Bilangan Desimal ke Biner
+   Membagi bilangan desimal dengan 2 (basis biner) sampai tidak bisa dibagi lagi. Kemudian sisa pembagian diurutkan dari bawah ke atas dalam format 8 bit.
+   <p>Contoh: 89<sub>10</sub></p>
+
+   <table align="center">
+      <tr>
+         <td style="text-align:right;width:70px">89<br>2:</td>
+         <td style="vertical-align:right;width:50px"></td>
+         <td rowspan="7" style="width:200px;text-align:justify;">Ditullis dari bawah ke atas: <span style="color: red;">1011001</span> Karena penulisan dengan 8 bit, sehingga <br> 89<sub>10</sub> = <span style="color: red;">0101 1001<sub>2</sub></span></td>
+      </tr>
+      <tr>
+         <td style="text-align:right;width:70px">44<br>2:</td>
+         <td style="vertical-align:top;width:50px">sisa  <span style="color: red;">1</span></td>
+      </tr>
+      <tr>
+         <td style="text-align:right;width:70px">22<br>2:</td>
+         <td style="vertical-align:top;width:50px">sisa  <span style="color: red;">0</span></td>
+      </tr>
+      <tr>
+         <td style="text-align:right;width:70px">11<br>2:</td>
+         <td style="vertical-align:top;width:50px">sisa  <span style="color: red;">0</span></td>
+      </tr>
+      <tr>
+         <td style="text-align:right;width:70px">55<br>2:</td>
+         <td style="vertical-align:top;width:50px">sisa  <span style="color: red;">1</span></td>
+      </tr>
+      <tr>
+         <td style="text-align:right;width:70px">2<br>2:</td>
+         <td style="vertical-align:top;width:50px">sisa  <span style="color: red;">1</span></td>
+      </tr>
+      <tr>
+         <td style="text-align:right;width:70px"><span style="color: red;">1</span></td>
+         <td style="vertical-align:top;width:50px">sisa  <span style="color: red;">0</span></td>
+      </tr>
+   </table>
+
+2. Bilangan Biner ke Desimal
+   Mengalikan masing-masing bit biner dalam bilangan sesuai dengan radix dan position value-nya.
+      <p>Contoh: 11 0101<sub>2</sub></p>
+
+      <table align="center">
+         <tr>
+            <th>bit ke-?</th>
+            <th colspan="2" style="text-align:center;width:150px">110101<sub>2</sub></th>
+            <td rowspan="8" style="text-align:center;width:180px">Hasil di samping adalah:<br><b>11 0101<sub>2</sub> = 53<sub>10</sub></b> </td>
+         </tr>
+         <tr>
+            <td style="text-align:center">0</td>
+            <td style="text-align:center">1 x 2<sup>0</sup></td>
+            <td style="text-align:center">1</td>
+         </tr>
+         <tr>
+            <td style="text-align:center">1</td>
+            <td style="text-align:center">0 x 2<sup>1</sup></td>
+            <td style="text-align:center">0</td>
+         </tr>
+         <tr>
+            <td style="text-align:center">2</td>
+            <td style="text-align:center">1 x 2<sup>2</sup></td>
+            <td style="text-align:center">4</td>
+         </tr>
+         <tr>
+            <td style="text-align:center">3</td>
+            <td style="text-align:center">0 x 2<sup>3</sup></td>
+            <td style="text-align:center">0</td>
+         </tr>
+         <tr>
+            <td style="text-align:center">4</td>
+            <td style="text-align:center">1 x 2<sup>4</sup></td>
+            <td style="text-align:center">16</td>
+         </tr>
+         <tr>
+            <td style="text-align:center">5</td>
+            <td style="text-align:center">1 x 2<sup>5</sup></td>
+            <td style="text-align:center">32</td>
+         </tr>
+         <tr>
+            <td colspan="2" style="text-align:right">Jumlah</td>
+            <td style="text-align:center">53</td>
+         </tr>
+      </table>
+
+   > Under Construction
