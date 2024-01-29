@@ -107,47 +107,47 @@ Sistem yang digunakan untuk mengkodekan berbagai karakter. Data disimpan dalam m
    Membagi bilangan desimal dengan 2 (basis biner) sampai tidak bisa dibagi lagi. Kemudian sisa pembagian diurutkan dari bawah ke atas dalam format 8 bit.
    <p>Contoh: 89<sub>10</sub></p>
 
-   <table align="center">
-      <tr>
-         <td width="70px"><p align="right">89<br>2:</td>
-         <td width="70px"></td>
-         <td rowspan="7"><p>Ditullis dari bawah ke atas: <br> <b><span style="color: red;">1011001</span></b> Karena penulisan <br> dengan 8 bit, sehingga <br> 89<sub>10</sub> = <b><span style="color: red;">0101 1001<sub>2</sub></span></b></p></td>
-      </tr>
-      <tr>
-         <td><p align="right">44<br>2:</td>
-         <td><p align="left">sisa  <b><span style="color: red;">1</span></b></p></td>
-      </tr>
-      <tr>
-         <td><p align="right">22<br>2:</td>
-         <td><p align="left">sisa  <b><span style="color: red;">0</span></b></p></td>
-      </tr>
-      <tr>
-         <td><p align="right">11<br>2:</td>
-         <td><p align="left">sisa  <b><span style="color: red;">0</span></b></p></td>
-      </tr>
-      <tr>
-         <td><p align="right">55<br>2:</td>
-         <td><p align="left">sisa  <b><span style="color: red;">1</span></b></p></td>
-      </tr>
-      <tr>
-         <td><p align="right">2<br>2:</td>
-         <td><p align="left">sisa  <b><span style="color: red;">1</span></b></p></td>
-      </tr>
-      <tr>
-         <td><p align="right"><b><span style="color: red;">1</span></b></p></td>
-         <td><p align="left">sisa  <b><span style="color: red;">0</span></b></p></td>
-      </tr>
-   </table>
+      <table align="center">
+         <tr>
+            <td width="70px"><p align="right">89<br>2:</td>
+            <td width="70px"></td>
+            <td rowspan="7"><p>Ditullis dari bawah ke atas: <br> <b><span style="color: red;">1011001</span></b> Karena penulisan <br> dengan 8 bit, sehingga <br> 89<sub>10</sub> = <b><span style="color: red;">0101 1001<sub>2</sub></span></b></p></td>
+         </tr>
+         <tr>
+            <td><p align="right">44<br>2:</td>
+            <td><p align="left">sisa  <b><span style="color: red;">1</span></b></p></td>
+         </tr>
+         <tr>
+            <td><p align="right">22<br>2:</td>
+            <td><p align="left">sisa  <b><span style="color: red;">0</span></b></p></td>
+         </tr>
+         <tr>
+            <td><p align="right">11<br>2:</td>
+            <td><p align="left">sisa  <b><span style="color: red;">0</span></b></p></td>
+         </tr>
+         <tr>
+            <td><p align="right">55<br>2:</td>
+            <td><p align="left">sisa  <b><span style="color: red;">1</span></b></p></td>
+         </tr>
+         <tr>
+            <td><p align="right">2<br>2:</td>
+            <td><p align="left">sisa  <b><span style="color: red;">1</span></b></p></td>
+         </tr>
+         <tr>
+            <td><p align="right"><b><span style="color: red;">1</span></b></p></td>
+            <td><p align="left">sisa  <b><span style="color: red;">0</span></b></p></td>
+         </tr>
+      </table>
 
 2. Bilangan Biner ke Desimal  
    Mengalikan masing-masing bit biner dalam bilangan sesuai dengan radix dan position value-nya.
-      <p>Contoh: 11 0101<sub>2</sub></p>
+   <p>Contoh: 11 0101<sub>2</sub></p>
 
       <table align="center">
          <tr>
             <th>bit ke-?</th>
             <th colspan="2" width="150px"><p align="center">110101<sub>2</sub></p></th>
-            <td rowspan="8" style="text-align:center;width:180px">Hasil di samping adalah:<br><b>11 0101<sub>2</sub> = 53<sub>10</sub></b> </td>
+            <td rowspan="8" style="text-align:center;width:180px"><center>Hasil di samping adalah:<br><b>11 0101<sub>2</sub> = 53<sub>10</sub></b></center></td>
          </tr>
          <tr>
             <td><p align="center">0</p></td>
@@ -182,6 +182,57 @@ Sistem yang digunakan untuk mengkodekan berbagai karakter. Data disimpan dalam m
          <tr>
             <td colspan="2"><p align="right">Jumlah</p></td>
             <td><p align="center">53</p></td>
+         </tr>
+      </table>
+
+3. Bilangan Desimal ke Oktal  
+   Membagi bilangan desimal dengan 8 (basis oktal) sampai tidak bisa dibagi lagi. Cara yang digunakan sama dengan biner.
+   <p>Contoh: 147<sub>10</sub></p>
+
+      <table align="center">
+         <tr>
+            <td width="70px"><p align="right">147<br>8:</td>
+            <td width="70px"></td>
+            <td rowspan="7"><p>Ditullis dari bawah ke atas: <br> <b><span style="color: red;">223</span></b> <br>Maka hasilnya... <br> 147<sub>10</sub> = <b><span style="color: red;">223<sub>8</sub></span></b></p></td>
+         </tr>
+         <tr>
+            <td><p align="right">18<br>8:</td>
+            <td><p align="left">sisa  <b><span style="color: red;">3</span></b></p></td>
+         </tr>
+         <tr>
+            <td><p align="right"><b><span style="color: red;">2</span></b></p></td>
+            <td><p align="left">sisa  <b><span style="color: red;">2</span></b></p></td>
+         </tr>
+      </table>
+
+4. Bilangan Oktal ke Desimal  
+   Mengalikan masing-masing bit oktal dalam bilangan sesuai dengan radix dan position value-nya.
+   <p>Contoh: 371<sub>8</sub></p>
+
+      <table align="center">
+         <tr>
+            <th>bit ke-?</th>
+            <th colspan="2" width="150px"><p align="center">371<sub>8</sub></p></th>
+            <td rowspan="8" style="text-align:center;width:180px"><center>Hasil di samping adalah:<br><b>371<sub>8</sub> = 249<sub>10</sub></b></center></td>
+         </tr>
+         <tr>
+            <td><p align="center">0</p></td>
+            <td><p align="center">1 x 8<sup>0</sup></p></td>
+            <td><p align="center">1</p></td>
+         </tr>
+         <tr>
+            <td><p align="center">1</p></td>
+            <td><p align="center">7 x 8<sup>1</sup></p></td>
+            <td><p align="center">56</p></td>
+         </tr>
+         <tr>
+            <td><p align="center">2</p></td>
+            <td><p align="center">3 x 8<sup>2</sup></p></td>
+            <td><p align="center">192</p></td>
+         </tr>
+         <tr>
+            <td colspan="2"><p align="right">Jumlah</p></td>
+            <td><p align="center">249</p></td>
          </tr>
       </table>
 
