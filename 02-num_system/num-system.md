@@ -109,33 +109,33 @@ Sistem yang digunakan untuk mengkodekan berbagai karakter. Data disimpan dalam m
 
    <table align="center">
       <tr>
-         <td style="text-align:right;width:70px">89<br>2:</td>
-         <td style="vertical-align:right;width:50px"></td>
-         <td rowspan="7" style="width:200px;text-align:justify;">Ditullis dari bawah ke atas: <br> <b><span style="color: red;">1011001</span></b> Karena penulisan <br> dengan 8 bit, sehingga <br> 89<sub>10</sub> = <b><span style="color: red;">0101 1001<sub>2</sub></span></b></td>
+         <td width="70px"><p align="right">89<br>2:</td>
+         <td width="60px"></td>
+         <td rowspan="7" width="200px"><p>Ditullis dari bawah ke atas: <br> <b><span style="color: red;">1011001</span></b> Karena penulisan <br> dengan 8 bit, sehingga <br> 89<sub>10</sub> = <b><span style="color: red;">0101 1001<sub>2</sub></span></b></p></td>
       </tr>
       <tr>
-         <td style="text-align:right;width:70px">44<br>2:</td>
-         <td style="vertical-align:top;width:50px">sisa  <b><span style="color: red;">1</span></b></td>
+         <td><p align="right">44<br>2:</td>
+         <td><p align="left">sisa  <b><span style="color: red;">1</span></b></td>
       </tr>
       <tr>
-         <td style="text-align:right;width:70px">22<br>2:</td>
-         <td style="vertical-align:top;width:50px">sisa  <b><span style="color: red;">0</span></b></td>
+         <td><p align="right">22<br>2:</td>
+         <td><p align="left">sisa  <b><span style="color: red;">0</span></b></td>
       </tr>
       <tr>
-         <td style="text-align:right;width:70px">11<br>2:</td>
-         <td style="vertical-align:top;width:50px">sisa  <b><span style="color: red;">0</span></b></td>
+         <td><p align="right">11<br>2:</td>
+         <td><p align="left">sisa  <b><span style="color: red;">0</span></b></td>
       </tr>
       <tr>
-         <td style="text-align:right;width:70px">55<br>2:</td>
-         <td style="vertical-align:top;width:50px">sisa  <b><span style="color: red;">1</span></b></td>
+         <td><p align="right">55<br>2:</td>
+         <td><p align="left">sisa  <b><span style="color: red;">1</span></b></td>
       </tr>
       <tr>
-         <td style="text-align:right;width:70px">2<br>2:</td>
-         <td style="vertical-align:top;width:50px">sisa  <b><span style="color: red;">1</span></b></b></td>
+         <td><p align="right">2<br>2:</td>
+         <td><p align="left">sisa  <b><span style="color: red;">1</span></b></b></td>
       </tr>
       <tr>
-         <td style="text-align:right;width:70px"><b><span style="color: red;">1</span></b></td>
-         <td style="vertical-align:top;width:50px">sisa  <b><span style="color: red;">0</span></b></td>
+         <td><p align="right"><b><span style="color: red;">1</span></b></td>
+         <td><p align="left">sisa  <b><span style="color: red;">0</span></b></td>
       </tr>
    </table>
 
@@ -146,42 +146,42 @@ Sistem yang digunakan untuk mengkodekan berbagai karakter. Data disimpan dalam m
       <table align="center">
          <tr>
             <th>bit ke-?</th>
-            <th colspan="2" style="text-align:center;width:150px">110101<sub>2</sub></th>
+            <th colspan="2" width="150px"><p align="center">110101<sub>2</sub></p></th>
             <td rowspan="8" style="text-align:center;width:180px">Hasil di samping adalah:<br><b>11 0101<sub>2</sub> = 53<sub>10</sub></b> </td>
          </tr>
          <tr>
-            <td style="text-align:center">0</td>
-            <td style="text-align:center">1 x 2<sup>0</sup></td>
-            <td style="text-align:center">1</td>
+            <td><p align="center">0</p></td>
+            <td><p align="center">1 x 2<sup>0</sup></p></td>
+            <td><p align="center">1</p></td>
          </tr>
          <tr>
-            <td style="text-align:center">1</td>
-            <td style="text-align:center">0 x 2<sup>1</sup></td>
-            <td style="text-align:center">0</td>
+            <td><p align="center">1</p></td>
+            <td><p align="center">0 x 2<sup>1</sup></p></td>
+            <td><p align="center">0</p></td>
          </tr>
          <tr>
-            <td style="text-align:center">2</td>
-            <td style="text-align:center">1 x 2<sup>2</sup></td>
-            <td style="text-align:center">4</td>
+            <td><p align="center">2</p></td>
+            <td><p align="center">1 x 2<sup>2</sup></p></td>
+            <td><p align="center">4</p></td>
          </tr>
          <tr>
-            <td style="text-align:center">3</td>
-            <td style="text-align:center">0 x 2<sup>3</sup></td>
-            <td style="text-align:center">0</td>
+            <td><p align="center">3</p></td>
+            <td><p align="center">0 x 2<sup>3</sup></p></td>
+            <td><p align="center">0</p></td>
          </tr>
          <tr>
-            <td style="text-align:center">4</td>
-            <td style="text-align:center">1 x 2<sup>4</sup></td>
-            <td style="text-align:center">16</td>
+            <td><p align="center">4</p></td>
+            <td><p align="center">1 x 2<sup>4</sup></p></td>
+            <td><p align="center">16</p></td>
          </tr>
          <tr>
-            <td style="text-align:center">5</td>
-            <td style="text-align:center">1 x 2<sup>5</sup></td>
-            <td style="text-align:center">32</td>
+            <td><p align="center">5</p></td>
+            <td><p align="center">1 x 2<sup>5</sup></p></td>
+            <td><p align="center">32</p></td>
          </tr>
          <tr>
-            <td colspan="2" style="text-align:right">Jumlah</td>
-            <td style="text-align:center">53</td>
+            <td colspan="2"><p align="right">Jumlah</p></td>
+            <td><p align="center">53</p></td>
          </tr>
       </table>
 
