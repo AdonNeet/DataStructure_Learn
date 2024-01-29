@@ -110,8 +110,8 @@ Sistem yang digunakan untuk mengkodekan berbagai karakter. Data disimpan dalam m
    <table align="center">
       <tr>
          <td width="70px"><p align="right">89<br>2:</td>
-         <td width="60px"></td>
-         <td rowspan="7" width="200px"><p>Ditullis dari bawah ke atas: <br> <b><span style="color: red;">1011001</span></b> Karena penulisan <br> dengan 8 bit, sehingga <br> 89<sub>10</sub> = <b><span style="color: red;">0101 1001<sub>2</sub></span></b></p></td>
+         <td width="70px"></td>
+         <td rowspan="7"><p>Ditullis dari bawah ke atas: <br> <b><span style="color: red;">1011001</span></b> Karena penulisan <br> dengan 8 bit, sehingga <br> 89<sub>10</sub> = <b><span style="color: red;">0101 1001<sub>2</sub></span></b></p></td>
       </tr>
       <tr>
          <td><p align="right">44<br>2:</td>
