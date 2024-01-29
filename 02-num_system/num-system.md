@@ -92,13 +92,13 @@ Komputer bekerja dengan sistem biner berupa 0 dan 1 (bit). Bit merupakan satuan 
 
 Sistem yang digunakan untuk mengkodekan berbagai karakter. Data disimpan dalam memori yang menempati posisi 1 byte, ini menggunakan kombinasi dari digit Biner. Komputer berbeda dalam menggunakan kode biner untuk mewakili sebuah karakter.
 
-1. BCD (Binary Coded Decimal)
+1. BCD (Binary Coded Decimal)  
    Merupakan kode biner yang digunakan hanya untuk mewakili nilai digit desimal saja. Sebuah karakter BCD dinyatakan dengan 4 bit karakter yang tersedia sebanyak 10 angka (0,1,2,3,4,5,6,7,8,9). Digunakan pada komputer generasi pertama.
-2. EBCDIC (Extended Binary Coded Decimal Interchange Code)
+2. EBCDIC (Extended Binary Coded Decimal Interchange Code)  
    EBCDIC dikembangkan oleh IBM, ini diterapkan pada berbagai komputer mainframe. Sebuah karakter dinyatakan dengan 8 bit. Karakter yang tersedia sebanya 28 = 226 karakter. Digunakan pada komputer generasi ketiga.
-3. ASCII (American Standard Code for Information Interchange)
+3. ASCII (American Standard Code for Information Interchange)  
    ASCII dikembangkan oleh ANSI (American National Standard Institute). Sebuah karakter ASCII dinyatakan dengan 8 bit. Karakter yang tersedia sebanyak 256 karakter, meliputi huruf, angka, dan spesial karakter, termasuk simbol Yunani dan karakter grafis.
-4. Unicode
+4. Unicode  
    Sebuah karakter Unicode dinyatakan dengan 16 bit. Karakter yang tersedia sebanyak 65.536 karakter, meliputi huruf, angka, dan spesial karakter, termasuk simbol Yunani, karakter grafis, simbol Arab dan Cina.
 
 > Under Construction
