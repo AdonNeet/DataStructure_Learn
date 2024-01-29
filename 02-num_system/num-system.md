@@ -115,27 +115,27 @@ Sistem yang digunakan untuk mengkodekan berbagai karakter. Data disimpan dalam m
       </tr>
       <tr>
          <td><p align="right">44<br>2:</td>
-         <td><p align="left">sisa  <b><span style="color: red;">1</span></b></td>
+         <td><p align="left">sisa  <b><span style="color: red;">1</span></b></p></td>
       </tr>
       <tr>
          <td><p align="right">22<br>2:</td>
-         <td><p align="left">sisa  <b><span style="color: red;">0</span></b></td>
+         <td><p align="left">sisa  <b><span style="color: red;">0</span></b></p></td>
       </tr>
       <tr>
          <td><p align="right">11<br>2:</td>
-         <td><p align="left">sisa  <b><span style="color: red;">0</span></b></td>
+         <td><p align="left">sisa  <b><span style="color: red;">0</span></b></p></td>
       </tr>
       <tr>
          <td><p align="right">55<br>2:</td>
-         <td><p align="left">sisa  <b><span style="color: red;">1</span></b></td>
+         <td><p align="left">sisa  <b><span style="color: red;">1</span></b></p></td>
       </tr>
       <tr>
          <td><p align="right">2<br>2:</td>
-         <td><p align="left">sisa  <b><span style="color: red;">1</span></b></b></td>
+         <td><p align="left">sisa  <b><span style="color: red;">1</span></b></p></td>
       </tr>
       <tr>
-         <td><p align="right"><b><span style="color: red;">1</span></b></td>
-         <td><p align="left">sisa  <b><span style="color: red;">0</span></b></td>
+         <td><p align="right"><b><span style="color: red;">1</span></b></p></td>
+         <td><p align="left">sisa  <b><span style="color: red;">0</span></b></p></td>
       </tr>
    </table>
 
