@@ -4,7 +4,7 @@ Suatu cara untuk mewakili besaran dari suatu item fisik. Konsep dasarnya dikarak
 
 <table align="center">
    <tr>
-      <th style="text-align:center" colspan="2">A x B<sup>n</sup></times></th>
+      <th style="text-align:center" colspan="2"><h3>A x B<sup>n</sup></h3></th>
    </tr>
    <tr>
       <td>A</td>
@@ -29,7 +29,7 @@ Basis yang digunakan sistem bilangan tergantung dari jumlah nilai bilangan yang 
 
   <table align="center">
      <tr>
-      <th style="text-align:center" colspan="2">A x 10<sup>n</sup></times></th>
+      <th style="text-align:center" colspan="2"><h2>A x 10<sup>n</sup></h2></th>
      </tr>
   </table>
 
@@ -40,7 +40,7 @@ Basis yang digunakan sistem bilangan tergantung dari jumlah nilai bilangan yang 
 
    <table align="center">
       <tr>
-         <th style="text-align:center" colspan="2">A x 2<sup>n</sup></times></th>
+         <th style="text-align:center" colspan="2"><h2>A x 2<sup>n</sup></h2></th>
       </tr>
    </table>
 
@@ -51,7 +51,7 @@ Basis yang digunakan sistem bilangan tergantung dari jumlah nilai bilangan yang 
 
    <table align="center">
       <tr>
-         <th style="text-align:center" colspan="2">A x 8<sup>n</sup></times></th>
+         <th style="text-align:center" colspan="2"><h2>A x 8<sup>n</sup></h2></th>
       </tr>
    </table>
 
@@ -62,7 +62,7 @@ Basis yang digunakan sistem bilangan tergantung dari jumlah nilai bilangan yang 
 
    <table align="center">
       <tr>
-         <th style="text-align:center" colspan="2">A x 16<sup>n</sup></times></th>
+         <th style="text-align:center" colspan="2"><h2>A x 16<sup>n</sup></h2></th>
       </tr>
    </table>
 
@@ -103,7 +103,7 @@ Sistem yang digunakan untuk mengkodekan berbagai karakter. Data disimpan dalam m
 
 ## Konversi Bilangan
 
-1. Bilangan Desimal ke Biner
+1. Bilangan Desimal ke Biner  
    Membagi bilangan desimal dengan 2 (basis biner) sampai tidak bisa dibagi lagi. Kemudian sisa pembagian diurutkan dari bawah ke atas dalam format 8 bit.
    <p>Contoh: 89<sub>10</sub></p>
 
@@ -139,7 +139,7 @@ Sistem yang digunakan untuk mengkodekan berbagai karakter. Data disimpan dalam m
       </tr>
    </table>
 
-2. Bilangan Biner ke Desimal
+2. Bilangan Biner ke Desimal  
    Mengalikan masing-masing bit biner dalam bilangan sesuai dengan radix dan position value-nya.
       <p>Contoh: 11 0101<sub>2</sub></p>
 
