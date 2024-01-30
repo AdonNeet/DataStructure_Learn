@@ -278,4 +278,91 @@ Sistem yang digunakan untuk mengkodekan berbagai karakter. Data disimpan dalam m
          </tr>
       </table>
 
-   > Under Construction
+7. Bilangan Biner ke Oktal  
+   Membagi digit biner tersebut ke dalam tiga digit dari kanan. Ketiga digit tersebut kemudian dikonversikan menjadi desimal.
+   <p>Contoh: 1010 1011<sub>2</sub></p>
+
+      <table align="center">
+         <tr>
+            <td width="70">Biner</td>
+            <td width="70"><p align="center">10</p></td>
+            <td width="70"><p align="center"><span style="color:red">101</span></p></td>
+            <td width="70"><p align="center"><span style="color:green">011</span></p></td>
+            <td rowspan="2"><p>Maka hasilnya... <br><b>1010 1011<sub>2</sub> = 253<sub>8</sub></b></p></td>
+         </tr>
+         <tr>
+            <td width="70">Desimal</td>
+            <td width="70"><p align="center">2</p></td>
+            <td width="70"><p align="center">5</p></td>
+            <td width="70"><p align="center">3</p></td>
+         </tr>
+      </table>
+
+8. Bilangan Oktal ke Biner  
+   Mengkonversikan setiap satu digit oktal menjadi tiga digit biner.
+   <p>Contoh: 71<sub>8</sub></p>
+
+      <table align="center">
+         <tr>
+            <td width="70">Oktal</td>
+            <td width="70"><p align="center">7</p></td>
+            <td width="70"><p align="center">1</p></td>
+            <td rowspan="2"><p>Maka hasilnya... <br><b>71<sub>8</sub> = 0011 1001<sub>2</sub></b></p></td>
+         </tr>
+         <tr>
+            <td width="70">Biner</td>
+            <td width="70"><p align="center">111</p></td>
+            <td width="70"><p align="center">001</p></td>
+         </tr>
+      </table>
+
+9. Bilangan Biner ke Hexadecimal  
+   Membagi digit biner ke dalam empat digit dari kanan. Keempat digit tersebut dikonversikan menjadi desimal.
+   <p>Contoh: 1010 1011<sub>2</sub></p>
+
+      <table align="center">
+         <tr>
+            <td width="70">Biner</td>
+            <td width="70"><p align="center"><span style="color:red">1010</span></p></td>
+            <td width="70"><p align="center"><span style="color:green">1011</span></p></td>
+            <td rowspan="3"><p>Maka hasilnya... <br><b>1010 1011<sub>2</sub> = AB<sub>16</sub></b></p></td>
+         </tr>
+         <tr>
+            <td width="70">Desimal</td>
+            <td width="70"><p align="center">10</p></td>
+            <td width="70"><p align="center">11</p></td>
+         </tr>
+         <tr>
+            <td width="70">Hexa</td>
+            <td width="70"><p align="center">A</p></td>
+            <td width="70"><p align="center">B</p></td>
+         </tr>
+      </table>
+
+10. Bilangan Hexadecimal ke Biner  
+    Mengkonversikan setiap satu digit heca menjadi empat digit biner. Untuk mempermudah dapat mengkonversikan dahulu ke desimal.
+    <p>Contoh: 8F<sub>16</sub></p>
+
+      <table align="center">
+         <tr>
+            <td width="70">Hexa</td>
+            <td width="70"><p align="center">8</p></td>
+            <td width="70"><p align="center">F</p></td>
+            <td rowspan="3"><p>Maka hasilnya... <br><b>8F<sub>16</sub> = 1000 1111<sub>2</sub></b></p></td>
+         </tr>
+         <tr>
+            <td width="70">Desimal</td>
+            <td width="70"><p align="center">8</p></td>
+            <td width="70"><p align="center">15</p></td>
+         </tr>
+         <tr>
+            <td width="70">Biner</td>
+            <td width="70"><p align="center">1000</p></td>
+            <td width="70"><p align="center">1111</p></td>
+         </tr>
+      </table>
+
+11. Bilangan Oktal ke Hexadecimal
+12. Bilangan Hexadecimal ke Oktal
+
+> Under Construction
