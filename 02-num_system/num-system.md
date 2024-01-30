@@ -362,7 +362,72 @@ Sistem yang digunakan untuk mengkodekan berbagai karakter. Data disimpan dalam m
          </tr>
       </table>
 
-11. Bilangan Oktal ke Hexadecimal
-12. Bilangan Hexadecimal ke Oktal
+11. Bilangan Oktal ke Hexadecimal  
+    Konversi tidak dapat dilakukan secara langsung, tetapi harus dikonversikan terlebih dahulu ke Desimal atau Biner.
+    <p>Contoh: 243<sub>8</sub></p>
 
-> Under Construction
+      <table align="center">
+         <tr>
+            <td width="70">Oktal</td>
+            <td width="70"><p align="center">2</p></td>
+            <td width="70" colspan="2"><p align="center">4</p></td>
+            <td width="70"><p align="center">3</p></td>
+            <td rowspan="5"><p>Maka hasilnya... <br><b>8F<sub>16</sub> = 143<sub>10</sub></b></p></td>
+         </tr>
+         <tr>
+            <td width="70">Biner</td>
+            <td width="70"><p align="center">0<span style="color:red">10</span></p></td>
+            <td width="70" colspan="2"><p align="center"><span style="color:red">10</span><span style="color:green">0</span></p></td>
+            <td width="70"><p align="center"><span style="color:green">011</span></p></td>
+         </tr>
+         <tr>
+            <td width="70"><i>merge it</i></td>
+            <td width="70" colspan="2"><p align="center">1010</p></td>
+            <td width="70" colspan="2"><p align="center">0011</p></td>
+         </tr>
+         <tr>
+            <td width="70">Desimal</td>
+            <td width="70" colspan="2"><p align="center">10</p></td>
+            <td width="70" colspan="2"><p align="center">3</p></td>
+         </tr>
+         <tr>
+            <td width="70">Hexa</td>
+            <td width="70" colspan="2"><p align="center">A</p></td>
+            <td width="70" colspan="2"><p align="center">3</p></td>
+         </tr>
+      </table>
+
+12. Bilangan Hexadecimal ke Oktal  
+    Konversi tidak dapat dilakukan secara langsung, tetapi harus dikonversikan terlebih dahulu ke Desimal atau Biner dengan konversi dari Oktal ke Hexa.
+    <p>Contoh: 8F<sub>16</sub></p>
+
+      <table align="center">
+         <tr>
+            <td width="70">Hexa</td>
+            <td width="70" colspan="2"><p align="center">8</p></td>
+            <td width="70" colspan="2"><p align="center">F</p></td>
+            <td rowspan="5"><p>Maka hasilnya... <br><b>8F<sub>16</sub> = 217<sub>8</sub></b></p></td>
+         </tr>
+         <tr>
+            <td width="70">Desimal</td>
+            <td width="70" colspan="2"><p align="center">8</p></td>
+            <td width="70" colspan="2"><p align="center">15</p></td>
+         </tr>
+         <tr>
+            <td width="70">Biner</td>
+            <td width="70" colspan="2"><p align="center">10<span style="color:red">00</span></p></td>
+            <td width="70" colspan="2"><p align="center"><span style="color:red">1</span><span style="color:green">111</span></p></td>
+         </tr>
+         <tr>
+            <td width="70"><i>split it</i></td>
+            <td width="70"><p align="center">10</p></td>
+            <td width="70" colspan="2"><p align="center">001</p></td>
+            <td width="70"><p align="center">111</p></td>
+         </tr>
+         <tr>
+            <td width="70">Oktal</td>
+            <td width="70"><p align="center">2</p></td>
+            <td width="70" colspan="2"><p align="center">1</p></td>
+            <td width="70"><p align="center">7</p></td>
+         </tr>
+      </table>
