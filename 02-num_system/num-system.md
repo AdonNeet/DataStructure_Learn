@@ -368,30 +368,30 @@ Sistem yang digunakan untuk mengkodekan berbagai karakter. Data disimpan dalam m
 
       <table align="center">
          <tr>
-            <td width="70">Oktal</td>
+            <td width="85">Oktal</td>
             <td width="70"><p align="center">2</p></td>
             <td width="70" colspan="2"><p align="center">4</p></td>
             <td width="70"><p align="center">3</p></td>
             <td rowspan="5"><p>Maka hasilnya... <br><b>8F<sub>16</sub> = 143<sub>10</sub></b></p></td>
          </tr>
          <tr>
-            <td width="70">Biner</td>
+            <td width="85">Biner</td>
             <td width="70"><p align="center">0<span style="color:red">10</span></p></td>
             <td width="70" colspan="2"><p align="center"><span style="color:red">10</span><span style="color:green">0</span></p></td>
             <td width="70"><p align="center"><span style="color:green">011</span></p></td>
          </tr>
          <tr>
-            <td width="70"><i>merge it</i></td>
+            <td width="85"><i>merge it</i></td>
             <td width="70" colspan="2"><p align="center">1010</p></td>
             <td width="70" colspan="2"><p align="center">0011</p></td>
          </tr>
          <tr>
-            <td width="70">Desimal</td>
+            <td width="85">Desimal</td>
             <td width="70" colspan="2"><p align="center">10</p></td>
             <td width="70" colspan="2"><p align="center">3</p></td>
          </tr>
          <tr>
-            <td width="70">Hexa</td>
+            <td width="85">Hexa</td>
             <td width="70" colspan="2"><p align="center">A</p></td>
             <td width="70" colspan="2"><p align="center">3</p></td>
          </tr>
