@@ -1,6 +1,8 @@
 # DataStructure_Learn
 
-Repository of mine while learn "Data Structure" autodidact
+Repository while learn "Data Structure" autodidact
 
-AdonNeet
+> Feels free to accept a pull requests :D
+
+AdonNeet  
 2024
