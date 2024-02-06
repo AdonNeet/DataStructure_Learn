@@ -8,8 +8,8 @@ Komputer menggunakan dan memanipulasi data untuk perhitungan aritmatika, pemrose
    Digunakan oleh operasi logika seperti OR, AND, COMPLEMENT, COMPARE dan SHIFT
 3. Data Bit Tunggal  
    Digunakan oleh operasi seperti SET, CLEAR, dan TEST
-4. Data Alfanumerik
-   Digunalan untuk memanipulasi string oleh instruksi seperti MOVE dan SEARCH
+4. Data Alfanumerik  
+   Digunakan untuk memanipulasi string oleh instruksi seperti MOVE dan SEARCH
 
 <center>
 
