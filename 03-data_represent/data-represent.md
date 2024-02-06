@@ -145,7 +145,7 @@ $$
 $$
    \begin{align*}
    &\hspace{0.5em} \text{1011} \quad \rightarrow \text{Komplemen satu} \\
-   & - - - \\
+   & - - - -\\
    &\hspace{0.5em} \text{1011} \\
    &\hspace{2.1em} \text{1} \\
    &\text{──── +} \\
@@ -171,7 +171,7 @@ $$
 $$
    \begin{align*}
    &\hspace{0.5em} \text{0010} \quad \rightarrow \text{Komplemen satu} \\
-   & - - - \\
+   & - - - - \\
    &\hspace{0.5em} \text{0010} \\
    &\hspace{2.1em} \text{1} \\
    &\text{──── +} \\
