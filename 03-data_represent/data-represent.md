@@ -157,10 +157,10 @@ Jadi penjumlahannya adalah:
 
 $$
    \begin{align*}
-   &\hspace{0.9em}  \text{8} \hspace{6.9em} \text{1000} \\
-   &\hspace{0.7em}  \text{-4} \hspace{6.9em} \text{1100} \\
-   &\text{─── +}  \quad \rightarrow \quad \hspace{0.5em} \text{───── +}  \\
-   &\hspace{1em}  \text{4} \hspace{6.2em} \text{1 0100} \quad \text{(digit paling kiri diabaikan)} \\
+   &\hspace{0.9em}  \text{8} \quad\quad\quad\quad\quad\quad \  \text{ 1000} \\
+   &\hspace{0.7em}  \text{-4} \quad\quad\quad\quad\quad\quad \  \text{ 1100} \\
+   &\text{─── +}  \quad \rightarrow \quad \text{───── +}  \\
+   &\hspace{0.9em}  \text{4} \quad\quad\quad\quad\quad\quad \text{1 0100} \quad \text{(digit paling kiri diabaikan)} \\
    \end{align*}
 $$
 
@@ -183,10 +183,10 @@ Jadi penjumlahannya adalah:
 
 $$
    \begin{align*}
-   &\hspace{1.3em}  \text{8} \hspace{6em} \text{1000} \\
-   &\hspace{0.5em}  \text{-11} \hspace{6em} \text{0011} \\
-   &\text{─── +}  \quad \rightarrow \quad \hspace{0.5em} \text{──── +}  \\
-   &\hspace{1em}  \text{-3} \hspace{6em} \text{1011} \quad \text{(bentuk biner dari -3)} \\
+   &\hspace{1.3em}  \text{8} \quad\quad\quad\quad\quad \ \ \text{1000} \\
+   &\hspace{0.5em}  \text{-11} \quad\quad\quad\quad\quad \ \ \text{0011} \\
+   &\text{─── +}  \quad \rightarrow \quad \text{──── +}  \\
+   &\hspace{1em}  \text{-3} \quad\quad\quad\quad\quad \ \ \text{1011} \quad \text{(bentuk biner dari -3)} \\
    \end{align*}
 $$
 
@@ -196,12 +196,12 @@ $$
 
 $$
    \begin{align*}
-   &\hspace{0.5em} \text{0111} \hspace{5em} \text{1000} \quad \rightarrow \text{Komplemen satu} \\
+   &\hspace{0.5em} \text{0111} \quad\quad\quad\quad\quad \text{1000} \quad \rightarrow \text{Komplemen satu} \\
    & - - - - - - - - - - - \\
-   &\hspace{0.5em} \text{0111} \hspace{5em} \text{1000} \\
-   &\hspace{2.1em} \text{1} \hspace{6.4em} \text{1} \\
-   &\text{──── +} \hspace{3em} \text{──── +}  \\
-   &\hspace{0.3em} \boxed{1000} \hspace{4.2em} \boxed{1001} \quad \rightarrow \text{Komplemen dua} \\
+   &\hspace{0.5em} \text{0111} \quad\quad\quad\quad\quad \text{1000} \\
+   &\hspace{2.1em} \text{1} \quad\quad\quad\quad\quad\quad \ \ \text{1} \\
+   &\text{──── +} \quad\quad\quad \text{──── +}  \\
+   &\hspace{0.3em} \boxed{1000} \quad\quad\quad\quad \ \boxed{1001} \quad \rightarrow \text{Komplemen dua} \\
    \end{align*}
 $$
 
@@ -209,9 +209,9 @@ jadi penjumlahannya adalah:
 
 $$
    \begin{align*}
-   &\hspace{1em}  \text{-8} \hspace{6.8em} \text{1000} \\
-   &\hspace{1em}  \text{-7} \hspace{6.8em} \text{1001} \\
-   &\text{─── +}  \quad \rightarrow \quad \hspace{0.5em} \text{───── +}  \\
-   &\hspace{0.4em}  \text{-15} \hspace{6.2em} \text{1 0001} \quad \text{(digit paling kiri diabaikan)} \\
+   &\hspace{1em}  \text{-8} \quad\quad\quad\quad\quad\quad \ \text{1000} \\
+   &\hspace{1em}  \text{-7} \quad\quad\quad\quad\quad\quad \ \text{1001} \\
+   &\text{─── +}  \quad \rightarrow \quad \text{───── +}  \\
+   &\hspace{0.4em}  \text{-15} \quad\quad\quad\quad\quad \ \ \ \text{1 0001} \quad \text{(digit paling kiri diabaikan)} \\
    \end{align*}
 $$
