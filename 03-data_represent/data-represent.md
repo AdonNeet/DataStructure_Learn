@@ -131,10 +131,10 @@ Ada beberapa kasus yang dapat dilakukan dengan komplemen dua:
 
 $$
    \begin{align*}
-   &\hspace{0.9em}  \text{8} &\text{1000} \\
-   &\hspace{0.9em}  \text{4} &\text{0100} \\
-   &\text{─── +}  \quad \rightarrow \quad \hspace{0.5em} \text{──── +}  \\
-   &\hspace{0.5em}  \text{12} &\text{1100} \\
+   &\hspace{0.9em}  \text{8} \quad\quad\quad\quad\quad\quad \text{1000} \\
+   &\hspace{0.9em}  \text{4} \quad\quad\quad\quad\quad\quad \text{0100} \\
+   &\text{─── +}  \quad \rightarrow \quad \text{──── +}  \\
+   &\hspace{0.5em}  \text{12} \quad\quad\quad\quad\quad\quad \text{1100} \\
    \end{align*}
 $$
 
