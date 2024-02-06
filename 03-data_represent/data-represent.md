@@ -72,8 +72,8 @@ Contoh pengurangan:
 $$
    \begin{align*}
    &\hspace{0.5em}  \text{0 10100 (20)} \\
-   - &\hspace{0.5em} \text{0 00101 (5)} \\
-   \hline
+   &\hspace{0.5em} \text{0 00101 (5)} \\
+   &\text{──────── ─}   \\
    &\hspace{0.5em}  \text{0 01111 (15)} \\
    \end{align*}
 $$
@@ -81,8 +81,8 @@ $$
 $$
    \begin{align*}
    &\hspace{0.5em}  \text{1 1011 (-11)} \\
-   + &\hspace{0.5em}  \text{1 0100 (-4)} \\
-   \hline
+   &\hspace{0.5em}  \text{1 0100 (-4)} \\
+   &\text{──────── +}   \\
    &\hspace{0.5em}  \text{1 0111 (-7)} \\
    \end{align*}
 $$
