@@ -47,8 +47,8 @@ Hanya bilangan biner yang dapat merepresentasikan bilangan integer direpresentas
 $$
    \begin{align*}
    &\hspace{0.5em}  \text{0 0010 (2)} \\
-   + &\hspace{0.5em}  \text{0 0101 (5)} \\
-   \hline
+   &\hspace{0.5em}  \text{0 0101 (5)} \\
+   &\text{─────── +}   \\
    &\hspace{0.5em}  \text{0 0111 (7)} \\
    \end{align*}
 $$
@@ -56,8 +56,8 @@ $$
 $$
    \begin{align*}
    &\hspace{0.5em}  \text{1 1011 (-11)} \\
-   + &\hspace{0.5em}  \text{1 0100 (-4)} \\
-   \hline
+   &\hspace{0.5em}  \text{1 0100 (-4)} \\
+   &\text{──────── +}   \\
    &\hspace{0.5em}  \text{1 1111 (-15)} \\
    \end{align*}
 $$
@@ -131,10 +131,10 @@ Ada beberapa kasus yang dapat dilakukan dengan komplemen dua:
 
 $$
    \begin{align*}
-   &\hspace{0.9em}  \text{8} \hspace{6.4em} \text{1000} \\
-   &\hspace{0.9em}  \text{4} \hspace{6.4em} \text{0100} \\
+   &\hspace{0.9em}  \text{8} &\text{1000} \\
+   &\hspace{0.9em}  \text{4} &\text{0100} \\
    &\text{─── +}  \quad \rightarrow \quad \hspace{0.5em} \text{──── +}  \\
-   &\hspace{0.5em}  \text{12} \hspace{6.3em} \text{1100} \\
+   &\hspace{0.5em}  \text{12} &\text{1100} \\
    \end{align*}
 $$
 
@@ -202,7 +202,6 @@ $$
    &\hspace{2.1em} \text{1} \hspace{6.4em} \text{1} \\
    &\text{──── +} \hspace{3em} \text{──── +}  \\
    &\hspace{0.3em} \boxed{1000} \hspace{4.2em} \boxed{1001} \quad \rightarrow \text{Komplemen dua} \\
-
    \end{align*}
 $$
 
