@@ -39,10 +39,10 @@ $$\text{(3) * (4) * (2) = 24}$$
 $$
 \begin{align*}
 &\text{Rumus:} \\
-&\text{@M[m][n][p] = M[0][0][0] + \{((m-1) * (jum.elemen2 * } \\
-&\ \quad\quad\quad\quad\quad\quad \ \text{jum.elemen3)) + ((n-1) * (jum.elemen3))} \\
-&\ \quad\quad\quad\quad\quad\quad \ \text{+ (p-1)\} * L} \\
-   \end{align*}
+&\text{@M[m][n][p] = M[0][0][0] + [((m-1) * (jum.elemen2 * } \\
+&\quad\quad\quad\quad\quad\quad \ \text{jum.elemen3)) + ((n-1) * (jum.elemen3))} \\
+&\quad\quad\quad\quad\quad\quad \ \text{+ (p-1)] * L} \\
+\end{align*}
 $$
 
 </div>
