@@ -7,11 +7,12 @@
    Deklarasi: Type_Data Nama_Var [index1] [index2] [index3]  
    Misal: int A [3][4][2]
 
-   <div style="margin: 0 auto; text-align:center;">
+   <p align="center">
     <img src="https://github.com/AdonNeet/DataStructure_Learn/blob/main/04-array_dimension/assets/arr342.jpg" alt="Ilustrasi array A [4][3][2]" width="50%" height="auto">
-   </div>
+   </p>
 
 2. Menentukan jumlah elemen dalam Array dimensi 3
+
    <div style="border: 1px solid white; padding: 10px; width: fit-content; max-width: 300px; height:auto; margin: 0 auto;">
 
    $$
@@ -38,8 +39,8 @@
       \begin{align*}
       &\text{Rumus:} \\
       &\text{@M[m][n][p] = M[0][0][0] + \{((m-1) * (jum.elemen2 * } \\
-      &\qquad\qquad\qquad \ \ \text{jum.elemen3)) + ((n-1) * (jum.elemen3))} \\
-      &\qquad\qquad\qquad \ \ \text{+ (p-1)\} * L} \\
+      &\quad\quad\quad\quad\quad\quad \ \ \text{jum.elemen3)) + ((n-1) * (jum.elemen3))} \\
+      &\quad\quad\quad\quad\quad\quad \ \ \text{+ (p-1)\} * L} \\
       \end{align*}
    $$
 
