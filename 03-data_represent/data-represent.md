@@ -46,19 +46,10 @@ Hanya bilangan biner yang dapat merepresentasikan bilangan integer direpresentas
 
 $$
    \begin{align*}
-   &\hspace{0.5em}  \text{0 0010 (2)} \\
-   &\hspace{0.5em}  \text{0 0101 (5)} \\
-   &\text{─────── +}   \\
-   &\hspace{0.5em}  \text{0 0111 (7)} \\
-   \end{align*}
-$$
-
-$$
-   \begin{align*}
-   &\hspace{0.5em}  \text{1 1011 (-11)} \\
-   &\hspace{0.5em}  \text{1 0100 (-4)} \\
-   &\text{──────── +}   \\
-   &\hspace{0.5em}  \text{1 1111 (-15)} \\
+   &\hspace{0.5em}  \text{0 0010 (2)} \quad\quad\quad\quad\quad\quad \text{1 1011 (-11)} \\
+   &\hspace{0.5em}  \text{0 0101 (5)} \quad\quad\quad\quad\quad\quad \text{1 0100 (-4)}  \\
+   &\text{─────── +} \quad\quad\quad\quad \ \text{──────── +} \\
+   &\hspace{0.5em}  \text{0 0111 (7)} \quad\quad\quad\quad\quad\quad \text{1 1111 (-15)} \\
    \end{align*}
 $$
 
@@ -71,19 +62,10 @@ Contoh pengurangan:
 
 $$
    \begin{align*}
-   &\hspace{0.5em}  \text{0 10100 (20)} \\
-   &\hspace{0.5em} \text{0 00101 (5)} \\
-   &\text{──────── ─}   \\
-   &\hspace{0.5em}  \text{0 01111 (15)} \\
-   \end{align*}
-$$
-
-$$
-   \begin{align*}
-   &\hspace{0.5em}  \text{1 1011 (-11)} \\
-   &\hspace{0.5em}  \text{1 0100 (-4)} \\
-   &\text{──────── +}   \\
-   &\hspace{0.5em}  \text{1 0111 (-7)} \\
+   &\hspace{0.5em}  \text{0 10100 (20)} \quad\quad\quad\quad\quad\quad \text{1 1011 (-11)} \\
+   &\hspace{0.5em} \text{0 00101 (5)} \quad\quad\quad\quad\quad\quad \ \ \text{1 0100 (-4)}  \\
+   &\text{──────── ─} \quad\quad\quad\quad \ \ \text{──────── +}  \\
+   &\hspace{0.5em}  \text{0 01111 (15)} \quad\quad\quad\quad\quad\quad \text{1 0111 (-7)}  \\
    \end{align*}
 $$
 
@@ -93,11 +75,11 @@ Kelemahan Sign-Magnitude:
    <p>+0<sub>10</sub> = 00000000<sub>2</sub></p>
    <p>-0<sub>10</sub> = 10000000<sub>2</sub></p>
 
-2. Representasi Komplemen Satu (One's Complement)  
+1. Representasi Komplemen Satu (One's Complement)  
    Komplemen pada dasarnya merubah bentuk pengurangan menjadi pertambahan. Komplementasi bilangan biner dengan cara mengubah 1 menjaddi 0 dan 0 menjadi 1. Contoh:
    <p align="center">00110110 = 11001001</p>
 
-3. Representasi Komplemen Dua (Two's Complement)  
+2. Representasi Komplemen Dua (Two's Complement)  
    Dibentuk dengan mengambil komplemen satu dari bilangannya dan dengan menambahkan 1 pada posisi paling kanan. Contoh desimal 49 (biner) menjadi bentuk komplemen dua:
 
 $$
@@ -114,11 +96,22 @@ $$
 
 Penjumlahan bilangan biner dilakukan sama seperti penjumlahan bilangan desimal. Operasi pengurangan, perkalian dan pembagian seperti yang dilakukan pada komputer dan kalkulator digital sesungguhnya menggunakan penjumlahan sebagai operasi dasarnya.
 
-Ada 4 kondisi dalam penjumlahan bilangan biner:  
-0 + 0 = 0  
-1 + 0 = 1  
-0 + 1 = 1  
-1 + 1 = 0 (_carry out_ 1)
+Ada 4 kondisi dalam penjumlahan bilangan biner:
+
+<table align="center" style="border-collapse: collapse;">
+   <tr>
+      <td style="border: none;">0 + 0 = 0 </td>
+   </tr>
+   <tr>
+      <td style="border: none;">1 + 0 = 1 </td>
+   </tr>
+   <tr>
+      <td style="border: none;">0 + 1 = 1 </td>
+   </tr>
+   <tr>
+      <td style="border: none;">1 + 1 = 0 (<i>carry out</i> 1)</td>
+   </tr>
+</table>
 
 _carry out_ menandakan hasilnya tidak bisa memuat lebih dari 1, tetapi disimpan ke dalam kolom sebelah yang lebih tinggi nilainya (digit paling kiri yang diabaikan)
 
