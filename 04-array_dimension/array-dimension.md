@@ -8,7 +8,31 @@
    Misal: int A [3][4][2]
 
    <center>
-    <img src="https://github.com/AdonNeet/DataStructure_Learn/blob/main/04-array_dimension/assets/arr342.jpg" alt="Ilustrasi array A [4][3][2]" style="max-width: 50%; height: auto;">
+    <img src="https://github.com/AdonNeet/DataStructure_Learn/blob/main/04-array_dimension/assets/arr342.jpg" alt="Ilustrasi array A [4][3][2]" width="50%" height="auto">
    </center>
+
+2. Menentukan jumlah elemen dalam Array dimensi 3
+
+<p>
+<div style="border: 1px solid; padding: 10px; width: fit-content; max-width: 300px; height:auto; margin: 0 auto;">
+
+$$
+   \begin{align*}
+   &\text{n} \\
+   &\pi \ \text{(index array)} \\
+   &\text{i = 1} \\
+   \end{align*}
+$$
+
+</div>
+</p>
+
+$$\pi = \text{Perkalian dari statemen sebelumnya}$$
+
+Contoh:  
+Suatu array X dideklarasikan:
+$$\text{int A [3][4][2]}$$  
+maka jumlah elemen dimensi tiga tersebut adalah:
+$$\text{(3) * (4) * (2) = 24}$$
 
 > Under construction
