@@ -8,7 +8,7 @@
    Misal: int A [3][4][2]
 
    <center>
-    <img src="https://github.com/AdonNeet/DataStructure_Learn/blob/main/04-array_dimension/assets/arr342.jpg" alt="Ilustrasi array A [4][3][2]">
+    <img src="https://github.com/AdonNeet/DataStructure_Learn/blob/main/04-array_dimension/assets/arr342.jpg" alt="Ilustrasi array A [4][3][2]" style="max-width: 50%; height: auto;">
    </center>
 
 > Under construction
