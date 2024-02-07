@@ -12,7 +12,7 @@
    </p>
 
 2. Menentukan jumlah elemen dalam Array dimensi 3
-
+   <p>
    <div style="border: 1px solid white; padding: 10px; width: fit-content; max-width: 300px; height:auto; margin: 0 auto;">
 
    $$
@@ -24,6 +24,7 @@
    $$
 
    </div>
+   </p>
 
    $$\pi = \text{Perkalian dari statemen sebelumnya}$$
    Contoh:  
@@ -33,17 +34,19 @@
    $$\text{(3) * (4) * (2) = 24}$$
 
 3. Pemetaan Array Dimensi Tiga
-<div style="border: 1px solid white; padding: 10px; width: fit-content; max-width: 500px; height:auto; margin: 0 auto;">
+   <p>
+   <div style="border: 1px solid white; padding: 10px; width: fit-content; max-width: 500px; height:auto; margin: 0 auto;">
 
-$$
-\begin{align*}
-&\text{Rumus:} \\
-&\text{@M[m][n][p] = M[0][0][0] + \{((m-1) * (jum.elemen2 * } \\
-&\quad\quad\quad\quad\quad\quad \ \ \text{jum.elemen3)) + ((n-1) * (jum.elemen3))} \\
-&\quad\quad\quad\quad\quad\quad \ \ \text{+ (p-1)\} * L} \\
-\end{align*}
-$$
+   $$
+   \begin{align*}
+   &\text{Rumus:} \\
+   &\text{@M[m][n][p] = M[0][0][0] + \{((m-1) * (jum.elemen2 * } \\
+   &\quad\quad\quad\quad\quad\quad \ \ \text{jum.elemen3)) + ((n-1) * (jum.elemen3))} \\
+   &\quad\quad\quad\quad\quad\quad \ \ \text{+ (p-1)\} * L} \\
+   \end{align*}
+   $$
 
-</div>
+   </div>
+   </p>
 
 > Under construction
