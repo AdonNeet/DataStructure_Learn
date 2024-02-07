@@ -26,10 +26,14 @@ $$
 </div>
 
 $$\pi = \text{Perkalian dari statemen sebelumnya}$$
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Contoh:  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Suatu array X dideklarasikan:
-$$\text{int A [3][4][2]}$$  
+
+$$\text{int A [3][4][2]}$$
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; maka jumlah elemen dimensi tiga tersebut adalah:
+
 $$\text{(3) * (4) * (2) = 24}$$
 
 3. Pemetaan Array Dimensi Tiga
@@ -82,7 +86,7 @@ int main() {
 ```
 
 <p align="center">
-    <img src="https://github.com/AdonNeet/DataStructure_Learn/blob/main/04-array_dimension/assets/outputArrA.png" alt="Ilustrasi output array A " width="50%" height="auto">
+    <img src="https://github.com/AdonNeet/DataStructure_Learn/blob/main/04-array_dimension/assets/outputArrA.png" alt="Ilustrasi output array A " width="35%" height="auto">
    </p>
 
 > Under construction
