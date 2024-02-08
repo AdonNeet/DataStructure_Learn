@@ -75,6 +75,16 @@ $$
 \end{align*}
 $$
 
+$$
+\begin{align*}
+&\text{A[2][3][2] = 0011}_{(H)} \ \text{+ [((2-1) * 4 * 3) + ((3-1) * 3) + (2-1)] * 2} \\
+&\quad\quad\quad\quad \ \text{= 0011}_{(H)} \ \text{+ [12 + 6 + 1] * 2} \\
+&\quad\quad\quad\quad \ \text{= 0011}_{(H)} \ \text{+ 38}_{(D)} \\
+&\quad\quad\quad\quad \ \text{= 0011}_{(H)} \ \text{+ 26}_{(H)} \\
+&\quad\quad\quad\quad \ \text{= 0037}_{(H)}  \\
+\end{align*}
+$$
+
 </div>
 
 4. Contoh Program Array DImensi Tiga
