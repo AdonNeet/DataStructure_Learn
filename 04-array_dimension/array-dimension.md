@@ -131,21 +131,18 @@ $$
 $$
 
 $$
-\begin{bmatrix}
+\begin{align*}
+&\begin{bmatrix}
 X & X & X \\
 0 & X & X \\
 0 & 0 & X \\
-\end{bmatrix}
+\end{bmatrix} \quad
 \begin{bmatrix}
 X & X & X \\
 0 & X & X \\
 0 & 0 & X \\
 \end{bmatrix} \\
-$$
-
-$$
-\begin{align*}
-&\hspace{2.5em} \text{(A)} \quad\quad\quad\quad\quad \text{(B)} \\
+&\hspace{2.5em} \text{(A)} \quad\quad\quad\quad\quad \ \ \ \text{(B)} \\
 &\hspace{1em} \text{(A) Upper Triangular Array} \\
 &\hspace{1em} \text{(B) Lower Triangular Array} \\
 \end{align*}
