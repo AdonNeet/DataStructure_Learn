@@ -13,12 +13,17 @@
 
 2. Menentukan jumlah elemen dalam Array dimensi 3
 
-<center>
+<div style="border: 1px solid white; padding: 10px; width: fit-content; max-width: 500px; height:auto; margin: 0 auto;">
 
-| $$\begin{align*}&\text{n} \\ &\pi \ \text{(index array)} \\ &\text{i = 1} \\ \end{align*}$$ |
-| ------------------------------------------------------------------------------------------- |
+$$
+\begin{align*}
+&\text{n} \\
+&\pi \ \text{(index array)} \\
+&\text{i = 1} \\
+\end{align*}
+$$
 
-</center>
+</div>
 
 $$\pi = \text{Perkalian dari statemen sebelumnya}$$
 
