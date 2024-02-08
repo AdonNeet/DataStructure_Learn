@@ -138,9 +138,9 @@ X & X & X \\
 0 & 0 & X \\
 \end{bmatrix} \quad
 \begin{bmatrix}
+X & 0 & 0 \\
+X & X & 0 \\
 X & X & X \\
-0 & X & X \\
-0 & 0 & X \\
 \end{bmatrix} \\
 &\hspace{2.5em} \text{(A)} \quad\quad\quad\quad\quad \ \ \ \text{(B)} \\
 &\hspace{1em} \text{(A) Upper Triangular Array} \\
@@ -148,4 +148,81 @@ X & X & X \\
 \end{align*}
 $$
 
-> Under construction
+Contoh:
+Diketahui suatu array segitiga atas memiliki 3 baris dan kolom, tentukan berapakah jumlah elemen yang bukan nol pada array tersebut?
+
+$$
+\begin{align*}
+&\text{I = N(N + 1)/2} \\
+&\text{I = 3 (3 + 1)/2} \\
+&\hspace{0.65em} \text{= 12/2} \\
+&\hspace{0.65em} \text{= 6} \\
+\end{align*}
+$$
+
+Contoh bentuk array tersebut adalah seperti berikut:
+
+$$
+\begin{align*}
+&\begin{bmatrix}
+10 & 20 & 30 \\
+0 & 40 & 50 \\
+0 & 0 & 60 \\
+\end{bmatrix} \quad
+\begin{bmatrix}
+5 & 10 & 15 \\
+0 & 20 & 25 \\
+0 & 0 & 30 \\
+\end{bmatrix}
+\quad \text{(dan lain-lain)}
+\end{align*}
+$$
+
+Suatu array upper tringular dan lower tringular dapat dengan orde yang sama, dapat disimpan sebagai suatu array dengan orde yang berbeda.
+Contoh:
+
+$$
+\begin{align*}
+\text{A = }
+&\begin{bmatrix}
+1 & 2 & 3 \\
+0 & 4 & 5 \\
+0 & 0 & 6 \\
+\end{bmatrix} \quad
+\text{B = }
+\begin{bmatrix}
+7 & 0 & 0 \\
+8 & 9 & 0 \\
+11 & 12 & 13 \\
+\end{bmatrix}
+\end{align*}
+$$
+
+Dapat disimpan sebagai array C berorde (3 X 4)
+
+$$
+\begin{align*}
+&\begin{bmatrix}
+7 & 1 & 2 & 3 \\
+8 & 9 & 4 & 5 \\
+11 & 12 & 13 & 6 \\
+\end{bmatrix} \quad
+\end{align*}
+$$
+
+### Sparse Array
+
+Suatu Array yang sangat banyak elemen nol-nya.
+
+$$
+\begin{align*}
+&\begin{bmatrix}
+0 & 0 & 0 & 0 & 1 & 0 & 0 & 2 \\
+0 & 1 & 0 & 0 & 0 & 0 & 0 & 0 \\
+1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+0 & 0 & 0 & 4 & 0 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0 & 0 & 0 & 0 & 2 \\
+\end{bmatrix}
+\end{align*}
+$$
