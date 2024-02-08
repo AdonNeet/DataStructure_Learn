@@ -122,4 +122,58 @@ int main() {
 
 ### >\_ ] Tringular Array
 
+Merupakan Upper Tringular (seluruh elemen dibawah diagonal utama = 0), ataupun Lower Tringular (seluruh elemen diatas diagonal utama = 0). Dalam array Lower dengan N bais, jumlah maksimum elemen <> 0 pada baris ke-I adalah = I, karenanya total elemen <> 0 tidak lebih dari
+
+<table align="center">
+<tr>
+<td>
+
+$$
+\begin{align*}
+&\text{n} \\
+&\pi \ \text{(index array)} \\
+&\text{i = 1} \\
+\end{align*}
+$$
+
+</td>
+</tr>
+</table>
+
+<table align="center" style="border-collapse: collapse; border: none;">
+<tr>
+<td style="border: none;text-align:center;">
+
+$$
+\begin{bmatrix}
+X & X & X \\
+0 & X & X \\
+0 & 0 & X \\
+\end{bmatrix}
+$$
+
+(a)
+
+</td>
+<td style="border: none;text-align:center;">
+
+$$
+\begin{bmatrix}
+X & 0 & 0 \\
+X & X & 0 \\
+X & X & X \\
+\end{bmatrix}
+$$
+
+(b)
+
+</td>
+</tr>
+</table>
+
+<p style="padding-left: 40px;">
+    (a) Upper Triangular Array <br>
+    (b) Lower Triangular Array
+</p>>
+
 > Under construction
