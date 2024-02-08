@@ -13,12 +13,12 @@
 
 2. Menentukan jumlah elemen dalam Array dimensi 3
 
-<center>
+<p align="center">
 
 | $$\begin{align*}&\text{n} \\ &\pi \ \text{(index array)} \\ &\text{i = 1} \\ \end{align*}$$ |
 | ------------------------------------------------------------------------------------------- |
 
-</center>
+</p>
 
 $$\pi = \text{Perkalian dari statemen sebelumnya}$$
 
@@ -33,12 +33,12 @@ $$\text{(3) * (4) * (2) = 24}$$
 
 3. Pemetaan Array Dimensi Tiga
 
-<center>
+<p align="center">
 
 | $$\begin{align*} &\text{Rumus:} \\ &\text{@M[m][n][p] = M[0][0][0] + [((m-1) * (jum.elemen2 * } \\ &\quad\quad\quad\quad\quad\quad \ \ \ \text{jum.elemen3)) + ((n-1) * (jum.elemen3))} \\ &\quad\quad\quad\quad\quad\quad \ \ \ \text{+ (p-1)] * L} \\ \end{align*} $$ |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
-</center>
+</p>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Contoh:  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Suatu array X dideklarasikan:
