@@ -67,17 +67,17 @@ $$
 &\text{@M[m][n][p] = M[0][0][0] + [((m-1) * (jum.elemen2 * } \\
 &\quad\quad\quad\quad\quad\quad \ \ \ \text{jum.elemen3)) + ((n-1) * (jum.elemen3))} \\
 &\quad\quad\quad\quad\quad\quad \ \ \ \text{+ (p-1)] * L} \\
-&\text{A[2][3][2] = 0011}_{(H)} \text{ + [((2-1) * 4 * 3) + ((3-1) * 3) + (2-1)] * 2} \\
-&\quad\quad\quad\quad \ \text{= 0011}_{(H)} \text{ + [12 + 6 + 1] * 2} \\
-&\quad\quad\quad\quad \ \text{= 0011}_{(H)} \text{38}_{(D)} \\
-&\quad\quad\quad\quad \ \text{= 0011}_{(H)} \text{26}_{(H)} \\
+&\text{A[2][3][2] = 0011}_{(H)} \ \text{+ [((2-1) * 4 * 3) + ((3-1) * 3) + (2-1)] * 2} \\
+&\quad\quad\quad\quad \ \text{= 0011}_{(H)} \ \text{+ [12 + 6 + 1] * 2} \\
+&\quad\quad\quad\quad \ \text{= 0011}_{(H)} \ \text{+ 38}_{(D)} \\
+&\quad\quad\quad\quad \ \text{= 0011}_{(H)} \ \text{+ 26}_{(H)} \\
 &\quad\quad\quad\quad \ \text{= 0037}_{(H)}  \\
 \end{align*}
 $$
 
 </div>
 
-1. Contoh Program Array DImensi Tiga
+4. Contoh Program Array DImensi Tiga
 
 ```cpp
 #include <bits/stdc++.h>
