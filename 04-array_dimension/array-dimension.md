@@ -4,7 +4,7 @@
 
 1. Deklarasi Array Dimensi Tiga  
    Digunakan untuk mengelola data dalam bentuk 3 dimensi atau tiga sisi.  
-   Deklarasi: $\text{Type\_Data Nama\_Var [index1] [index2] [index3]}$  
+   Deklarasi: $\text{TypeData NamaVar [index1] [index2] [index3]}$  
    Misal: $\text{int A [3][4][2]}$
 
    <p align="center">
@@ -66,7 +66,7 @@ $$
 &\text{Penyelesaian:} \\
 &\text{@M[m][n][p] = M[0][0][0] + [((m-1) * (jum.elemen2 * } \\
 &\quad\quad\quad\quad\quad\quad \ \ \ \text{jum.elemen3)) + ((n-1) * (jum.elemen3))} \\
-&\quad\quad\quad\quad\quad\quad \ \ \ \text{+ (p-1)] * L} \\ \\ \\
+&\quad\quad\quad\quad\quad\quad \ \ \ \text{+ (p-1)] * L} \\
 &\text{A[2][3][2] = 0011}_{(H)} \text{ + [((2-1) * 4 * 3) + ((3-1) * 3) + (2-1)] * 2} \\
 &\quad\quad\quad\quad \ \text{= 0011}_{(H)} \text{ + [12 + 6 + 1] * 2} \\
 &\quad\quad\quad\quad \ \text{= 0011}_{(H)} \text{38}_{(D)} \\
