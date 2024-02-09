@@ -210,7 +210,7 @@ $$
 \end{align*}
 $$
 
-### Sparse Array
+### >\_ ] Sparse Array
 
 Suatu Array yang sangat banyak elemen nol-nya.
 
